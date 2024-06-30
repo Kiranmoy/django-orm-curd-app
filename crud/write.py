@@ -7,7 +7,7 @@ from django.core.wsgi import get_wsgi_application
 
 application = get_wsgi_application()
 
-from related_objects.models import *
+from crud.models import *
 from datetime import date
 
 

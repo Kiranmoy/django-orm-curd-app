@@ -7,7 +7,7 @@ from django.core.wsgi import get_wsgi_application
 
 application = get_wsgi_application()
 
-from related_objects.models import *
+from crud.models import *
 
 # Your code starts from here:
 # Course has instructors reference field so can be used directly via forward access
