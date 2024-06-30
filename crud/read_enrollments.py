@@ -1,15 +1,13 @@
 # Django specific settings
-import inspect
 import os
+
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
-from django.db import connection
 # Ensure settings are read
 from django.core.wsgi import get_wsgi_application
+
 application = get_wsgi_application()
 
 from related_objects.models import *
-from datetime import date
-
 
 # Your code starts from here:
 learner_david = Learner.objects.get(first_name="David")
@@ -33,8 +31,8 @@ print("4. Check the occupation list for the courses taught by instructor `Yan`")
 print(occupation_list)
 
 enrollments = Enrollment.objects.filter(date_enrolled__month=8,
-                                            date_enrolled__year=2020,
-                                            learner__occupation='developer')
+                                        date_enrolled__year=2020,
+                                        learner__occupation='developer')
 courses_for_developers = set()
 for enrollment in enrollments:
     course = enrollment.course
