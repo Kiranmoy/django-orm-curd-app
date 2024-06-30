@@ -7,7 +7,7 @@ from django.core.wsgi import get_wsgi_application
 
 application = get_wsgi_application()
 
-from crud.models import *
+from related_objects.models import *
 
 # Your code starts from here:
 # Find all courses
