@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6750b755-9f94-4762-9892-2a06bbc9c5f2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/related_objects/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/read_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/read_courses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/read_instructors.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/read_instructors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/read_learners.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/read_learners.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/wrtie.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/wrtie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/wrtie.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/write.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/practice_workspace/python_space/django-orm-curd-app/lab-instrtuctions"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\practice_workspace\python_space\django-orm-curd-app\lab-instrtuctions" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\practice_workspace\python_space\django-orm-curd-app\related_objects" />
     </key>
